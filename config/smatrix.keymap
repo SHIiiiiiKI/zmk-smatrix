@@ -151,10 +151,10 @@
 
         layer_3 {
             bindings = <
-&trans  &trans  &trans          &mmv MOVE_UP    &kp F1           &kp F2                    &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &kp KP_N9     &kp KP_ASTERISK  &kp EQUAL
-&trans  &trans  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F3                    &kp NUMBER_3  &mkp MB1      &mkp MB3      &mkp MB2      &kp KP_MINUS     &trans
-&trans  &trans  &trans          &trans          &kp F5           &kp F4  &trans    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp KP_PLUS      &kp KP_SLASH
-&trans  &trans  &trans          &trans          &trans           &trans                    &trans        &mkp MB4      &mkp MB5      &kp COMMA     &kp KP_DOT       &kp COLON
+&trans  &kp F10  &kp F11         &mmv MOVE_UP    &kp F1           &kp F2                    &kp NUMBER_2  &kp NUMBER_1  &kp NUMBER_0  &kp MINUS     &kp PLUS      &kp EQUAL
+&trans  &kp F9   &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &kp F3                    &kp NUMBER_3  &mkp MB1      &mkp MB3      &mkp MB2      &kp NUMBER_9  &trans
+&trans  &kp F8   &kp F7          &kp F6          &kp F5           &kp F4  &trans    &trans  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp KP_SLASH
+&trans  &kp F15  &kp F14         &kp F13         &kp F12          &trans                    &trans        &mkp MB4      &mkp MB5      &kp COMMA     &kp KP_DOT    &kp COLON
             >;
 
             sensor-bindings = <&rot_kp C_VOL_UP C_VOL_DN    &mouse_click MB5 MB4>;
